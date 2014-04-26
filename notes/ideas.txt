@@ -1,0 +1,58 @@
+1. Drag and drop
+
+Allow drag and drop of directories from explorer into main window and use that as root
+
+2. Better Finder dialog (mac) and browser that shows sidebar etc. or at least accepts key commands (mac) for switching quickly.
+
+Investigate mac dialog options
+
+3. Ability to bookmark favorite locations.
+
+Think about bookmark system
+
+4. The instructions should make a clear note NOT to select inside a folder, but to select the folder itself because it won't work if you go into the folder and choose select. Otherwise, remove the option to hit 'select' when you haven't actually selected a folder.
+
+Look at this as part of 2 as its a mac bug
+
+5. Drag to reorder isn't obvious. Get mouse to show a 'finger/hand' symbol on hover.
+
+Started but hand cursor disappears after something happens
+
+6. Dynamically update the path display in the table to show how export would work
+
+Options to create file depth/folder depth aren't exactly obvious.
+Maybe this setting should be on the same page as the map builder and there should be a column that shows you the resulting path
+and how it looks and is named (like you showed in your documentation, but dynamically with the actual results).
+
+7. Directory selection in left table
+
+Option to select or shift select Folders on left to be included in the export.
+
+Add 'export selected' and 'export all' options
+
+8. Reaktor embed samples
+
+Option to embed samples into the map is really missing/wanted feature by users.
+
+9. Create new icons for toolbar
+
+Rescan icon isn't clear. Other icons aren't great either.
+
+10. Add note number column to right table
+
+Kit ordering should show numbers in the first Column (Note Number, Name, Size, Exclude for example).
+
+11. Change 'Layout' to Output Locations: Base+Relative Path, Original Source, Individual or something more obvious..
+
+12. Choose settings before export.
+
+I'd prefer to choose settings for output when I hit export. So, hit EXPORT and get a dialog for output settings. Choose one and hit 'don't remind me again' if you don't want to be bothered by it anymore.
+
+13. Export window should close automatically on complete.
+
+14. Close button on export config window.
+
+Clicking cancel/ok for changing paths is good, but not if you can accidentally close the window by hitting the window close button. The close window button is closer to the LAYOUT setting, so I just changed layout and hit close a couple times wondering why my settings didn't stick. Then I looked below and saw the dialog for 'cancel/ok'.  When you close that window, it should prompt you to choose cancel or ok or something like that as it isn't clear now.
+Change OK to 'apply'. Maybe that helps too.
+
+Either remove, make it do OK or show an OK / Cancel dialog

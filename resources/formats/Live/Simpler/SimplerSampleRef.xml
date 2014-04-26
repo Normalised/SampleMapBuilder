@@ -1,0 +1,112 @@
+<SampleRef>
+	<FileRef>
+		<HasRelativePath Value="true" />
+		<RelativePathType Value="1" />
+		<RelativePath>
+			<RelativePathElement Dir="" />
+			<RelativePathElement Dir="" />
+			<RelativePathElement Dir="" />
+			<RelativePathElement Dir="" />
+			<RelativePathElement Dir="samples" />
+			<RelativePathElement Dir="MDK" />
+			<RelativePathElement Dir="drums" />
+			<RelativePathElement Dir="Kicks" />
+		</RelativePath>
+		<Name Value="Solid.wav" />
+		<Type Value="1" />
+		<Data>
+			44003A005C00730061006D0070006C00650073005C004D0044004B005C006400720075006D007300
+			5C004B00690063006B0073005C0053006F006C00690064002E007700610076000000
+		</Data>
+		<RefersToFolder Value="false" />
+		<SearchHint>
+			<PathHint>
+				<RelativePathElement Dir="samples" />
+				<RelativePathElement Dir="MDK" />
+				<RelativePathElement Dir="drums" />
+				<RelativePathElement Dir="Kicks" />
+			</PathHint>
+			<FileSize Value="352844" />
+			<Crc Value="30044" />
+			<MaxCrcSize Value="16384" />
+			<HasExtendedInfo Value="true" />
+		</SearchHint>
+		<ImmutableUid Value="" />
+	</FileRef>
+	<LastModDate Value="1255853710" />
+	<SourceContext>
+		<SourceContext>
+			<Query Value="" />
+			<BaseDirRef>
+				<FileRef>
+					<HasRelativePath Value="true" />
+					<RelativePathType Value="1" />
+					<RelativePath>
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="samples" />
+						<RelativePathElement Dir="MDK" />
+						<RelativePathElement Dir="drums" />
+						<RelativePathElement Dir="Kicks" />
+					</RelativePath>
+					<Name Value="" />
+					<Type Value="1" />
+					<Data>
+						44003A005C00730061006D0070006C00650073005C004D0044004B005C006400720075006D007300
+						5C004B00690063006B0073005C000000
+					</Data>
+					<RefersToFolder Value="true" />
+					<SearchHint>
+						<PathHint />
+						<FileSize Value="0" />
+						<Crc Value="0" />
+						<MaxCrcSize Value="0" />
+						<HasExtendedInfo Value="false" />
+					</SearchHint>
+					<ImmutableUid Value="" />
+				</FileRef>
+			</BaseDirRef>
+			<OriginalFileRef>
+				<FileRef>
+					<HasRelativePath Value="true" />
+					<RelativePathType Value="1" />
+					<RelativePath>
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="" />
+						<RelativePathElement Dir="samples" />
+						<RelativePathElement Dir="MDK" />
+						<RelativePathElement Dir="drums" />
+						<RelativePathElement Dir="Kicks" />
+					</RelativePath>
+					<Name Value="Solid.wav" />
+					<Type Value="1" />
+					<Data>
+						44003A005C00730061006D0070006C00650073005C004D0044004B005C006400720075006D007300
+						5C004B00690063006B0073005C0053006F006C00690064002E007700610076000000
+					</Data>
+					<RefersToFolder Value="false" />
+					<SearchHint>
+						<PathHint>
+							<RelativePathElement Dir="samples" />
+							<RelativePathElement Dir="MDK" />
+							<RelativePathElement Dir="drums" />
+							<RelativePathElement Dir="Kicks" />
+						</PathHint>
+						<FileSize Value="352844" />
+						<Crc Value="30044" />
+						<MaxCrcSize Value="16384" />
+						<HasExtendedInfo Value="true" />
+					</SearchHint>
+					<ImmutableUid Value="" />
+				</FileRef>
+			</OriginalFileRef>
+		</SourceContext>
+	</SourceContext>
+	<SampleUsageHint Value="0" />
+	<DefaultDuration Value="88200" />
+	<DefaultSampleRate Value="44100" />
+</SampleRef>

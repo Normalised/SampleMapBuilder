@@ -1,0 +1,65 @@
+//--------------------------------------
+//--- 010 Editor v3.1 Binary Template
+//
+// File: ReaktorMap.bt
+//--------------------------------------
+
+typedef struct {
+    byte    header[11];
+    string  url;
+
+} URL_STYLE_FILENAME;
+
+typedef struct {
+    uint length;
+    wchar_t name[length];
+} UTF_8_FILENAME;
+
+typedef struct {
+    URL_STYLE_FILENAME url;
+    UTF_8_FILENAME utfName;
+} PATH;
+
+typedef struct {
+    uint    zeros;
+    uint    h7702; //77 02 00 00
+    char    NIMapFile[9];
+    PATH    mapFilePath;
+    char    mapp[4];
+    uint    h0c; // 0c 00 00 00
+    uint    one; // 01 00 00 00
+    uint    one; // 01 00 00 00
+    uint    zeros;
+    uint    zeros;
+    uint    numSamples; // 03 00 00 00
+
+} SAMPLEMAPHEADER;
+
+typedef struct {
+    PATH    samplePath;
+    uint    zeros;
+    char    entr[4];
+    uint    h54;
+    uint    h2;
+    uint    lowNote;
+    uint    highNote;
+    uint    lowVel;
+    uint    highVel;
+    uint    rootNote;
+    uint    zeros;
+    float   tune;
+    float   volume;
+    float   pan;
+    uint    FFzero[3];
+    uint    isLooped;
+    uint    zeros;
+    uint    one;
+    uint    loopStart;
+    uint    loopEnd;
+    uint    zeros;
+    uint    fiftyfive;
+    uint    stuff;
+} SAMPLE;
+
+SAMPLEMAPHEADER smh;
+SAMPLE  samples[smh.numSamples];

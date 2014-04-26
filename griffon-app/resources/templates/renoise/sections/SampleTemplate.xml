@@ -1,0 +1,31 @@
+<!-- BEGIN: main -->
+<Sample>
+    <Name>{name}</Name>
+    <FileName>{filename}</FileName>
+    <FileModificationDate>2011-04-29</FileModificationDate>
+    <FileModificationDayTime>19:38:38</FileModificationDayTime>
+    <Volume>1.0</Volume>
+    <Panning>0.5</Panning>
+    <BaseNote>{rootkey}</BaseNote>
+    <Transpose>0</Transpose>
+    <Finetune>0</Finetune>
+    <AutoSeek>false</AutoSeek>
+    <AutoFade>false</AutoFade>
+    <BeatSyncIsActive>false</BeatSyncIsActive>
+    <BeatSyncLines>16</BeatSyncLines>
+    <NewNoteAction>Cut</NewNoteAction>
+    <InterpolationMode>Cubic</InterpolationMode>
+    <LoopMode>Off</LoopMode>
+    <LoopRelease>false</LoopRelease>
+    <LoopStart>0</LoopStart>
+    <LoopEnd>{duration}</LoopEnd>
+    <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+    <IsAlias>false</IsAlias>
+    <DisplayStart>0</DisplayStart>
+    <DisplayLength>{duration}</DisplayLength>
+    <SelectionRangeStart>-1</SelectionRangeStart>
+    <SelectionRangeEnd>-1</SelectionRangeEnd>
+    <SelectedChannel>L+R</SelectedChannel>
+    <VZoomFactor>1.0</VZoomFactor>
+</Sample>
+<!-- END: main -->

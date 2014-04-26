@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaInformation>
+	<Attribute id="Class:ID" value="{C37BC9D1-6BD1-46A7-A60C-B13438666448}"/>
+	<Attribute id="Class:Name" value="SampleOne"/>
+	<Attribute id="Class:Category" value="AudioSynth"/>
+	<Attribute id="Class:SubCategory" value="(Native)/Sampler"/>
+	<Attribute id="Class:Vendor" value="PreSonus"/>
+	<Attribute id="Document:Title" value="SampleOne"/>
+	<Attribute id="Document:MimeType" value="application/x-presonus-preset"/>
+	<Attribute id="Document:Creator" value="martin"/>
+	<Attribute id="Document:Generator" value="Studio One/2.5.0.20189"/>
+	<Attribute id="Preset:DataFile" value="data.fxpreset"/>
+	<Attribute id="Preset:DataMimeType" value="audio/x-fxpreset"/>
+</MetaInformation>

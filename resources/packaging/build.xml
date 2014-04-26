@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SampleMapBuilder" default="bundle-smb" basedir=".">        
+
+	<property environment="env" />
+
+    <taskdef name="bundleapp"
+             classname="com.oracle.appbundler.AppBundlerTask"   
+             classpath="appbundler-1.0.jar" />
+
+	<target name="bundle-smb">
+        <bundleapp outputdirectory="../../packaged/"
+            name="Sample Map Builder"
+            displayname="Sample Map Builder"
+            identifier="com.relivethefuture.SampleMapBuilder"
+			icon="icon-256x256.icns"
+            mainclassname="griffon.swing.SwingApplication">
+			<classpath file="lib/drumKitBuilder2.jar" />
+			<classpath file="lib/glazedlists_java15-1.9.0.jar" />
+			<classpath file="lib/griffon-glazedlists-runtime-2.0.0.jar" />
+			<classpath file="lib/griffon-lookandfeel-runtime-1.0.0.jar" />
+			<classpath file="lib/griffon-lookandfeel-substance-addon-0.4.jar" />
+			<classpath file="lib/griffon-miglayout-runtime-1.0.0.jar" />
+			<classpath file="lib/griffon-rt-1.3.0.jar" />
+			<classpath file="lib/griffon-silkicons-runtime-1.0.0.jar" />
+			<classpath file="lib/griffon-swing-runtime-1.3.0.jar" />
+			<classpath file="lib/griffon-tasks-runtime-0.1.jar" />
+			<classpath file="lib/groovy-all-2.1.3.jar" />
+			<classpath file="lib/jcl-over-slf4j-1.7.3.jar" />
+			<classpath file="lib/jul-to-slf4j-1.7.3.jar" />
+			<classpath file="lib/log4j-1.2.17.jar" />
+			<classpath file="lib/miglayout-core-4.2.jar" />
+			<classpath file="lib/miglayout-swing-4.2.jar" />
+			<classpath file="lib/silk-1.3.jar" />
+			<classpath file="lib/slf4j-api-1.7.3.jar" />
+			<classpath file="lib/slf4j-log4j12-1.7.3.jar" />
+			<classpath file="lib/substance-6.2.jar" />
+			<classpath file="lib/swing-worker-1.1.jar" />
+			<classpath file="lib/swingx-action-1.6.4.jar" />
+			<classpath file="lib/swingx-autocomplete-1.6.4.jar" />
+			<classpath file="lib/swingx-beaninfo-1.6.4.jar" />
+			<classpath file="lib/swingx-common-1.6.4.jar" />
+			<classpath file="lib/swingx-core-1.6.4.jar" />
+			<classpath file="lib/swingx-graphics-1.6.4.jar" />
+			<classpath file="lib/swingx-painters-1.6.4.jar" />
+			<classpath file="lib/swingx-plaf-1.6.4.jar" />
+			<classpath file="lib/swingxbuilder-0.3.jar" />
+			<classpath file="lib/timingframework-1.0.jar" />
+			<classpath file="lib/trident-6.2.jar" />
+			<option value="-Dapple.laf.useScreenMenuBar=true"/>
+        </bundleapp>	
+	</target>
+	
+    <target name="bundle-smb-jre">
+        <bundleapp outputdirectory="../../packaged/"
+            name="Sample Map Builder"
+            displayname="Sample Map Builder"
+            identifier="com.relivethefuture.SampleMapBuilder"
+			icon="icon-256x256.icns"
+            mainclassname="griffon.swing.swingApplication">
+            <classpath file="lib/drumKitBuilder2.jar" />
+			<classpath file="lib/drumKitBuilder2.jar" />
+			<classpath file="lib/glazedlists_java15-1.9.0.jar" />
+			<classpath file="lib/griffon-glazedlists-runtime-2.0.0.jar" />
+			<classpath file="lib/griffon-lookandfeel-runtime-1.0.0.jar" />
+			<classpath file="lib/griffon-lookandfeel-substance-addon-0.4.jar" />
+			<classpath file="lib/griffon-miglayout-runtime-1.0.0.jar" />
+			<classpath file="lib/griffon-rt-1.3.0.jar" />
+			<classpath file="lib/griffon-silkicons-runtime-1.0.0.jar" />
+			<classpath file="lib/griffon-swing-runtime-1.3.0.jar" />
+			<classpath file="lib/griffon-tasks-runtime-0.1.jar" />
+			<classpath file="lib/groovy-all-2.1.3.jar" />
+			<classpath file="lib/jcl-over-slf4j-1.7.3.jar" />
+			<classpath file="lib/jul-to-slf4j-1.7.3.jar" />
+			<classpath file="lib/log4j-1.2.17.jar" />
+			<classpath file="lib/miglayout-core-4.2.jar" />
+			<classpath file="lib/miglayout-swing-4.2.jar" />
+			<classpath file="lib/silk-1.3.jar" />
+			<classpath file="lib/slf4j-api-1.7.3.jar" />
+			<classpath file="lib/slf4j-log4j12-1.7.3.jar" />
+			<classpath file="lib/substance-6.2.jar" />
+			<classpath file="lib/swing-worker-1.1.jar" />
+			<classpath file="lib/swingx-action-1.6.4.jar" />
+			<classpath file="lib/swingx-autocomplete-1.6.4.jar" />
+			<classpath file="lib/swingx-beaninfo-1.6.4.jar" />
+			<classpath file="lib/swingx-common-1.6.4.jar" />
+			<classpath file="lib/swingx-core-1.6.4.jar" />
+			<classpath file="lib/swingx-graphics-1.6.4.jar" />
+			<classpath file="lib/swingx-painters-1.6.4.jar" />
+			<classpath file="lib/swingx-plaf-1.6.4.jar" />
+			<classpath file="lib/swingxbuilder-0.3.jar" />
+			<classpath file="lib/timingframework-1.0.jar" />
+			<classpath file="lib/trident-6.2.jar" />
+			<runtime dir="${env.JAVA_HOME}" />
+			<option value="-Dapple.laf.useScreenMenuBar=true"/>
+        </bundleapp>
+    </target>
+
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/glazedlists-2.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/installer-0.8" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/lookandfeel-1.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/lookandfeel-pgslaf-1.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/miglayout-1.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/silkicons-1.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/swing-1.4.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/swingx-builder-0.7" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/tasks-0.1" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="griffon-1.5.0" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Griffon:lib (DrumKitBuilder2-griffonPlugins)">
+        <CLASSES>
+          <root url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/lookandfeel-pgslaf-1.0.0/lib" />
+          <root url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/installer-0.8/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/installer-0.8/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/lookandfeel-pgslaf-1.0.0/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>CFBundleName</key>
+	<string>Sample Map Builder</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.relivethefuture.SampleMapBuilder</string>
+	<key>CFBundleVersion</key>
+	<string>100.0</string>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<string>true</string>
+	<key>CFBundleExecutable</key>
+	<string>JavaApplicationStub</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.4</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Sample Map Builder</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIconFile</key>
+	<string>icon-256x256.icns</string>
+	<key>Java</key>
+	<dict>
+		<key>WorkingDirectory</key>
+		<string>$APP_PACKAGE/Contents/Resources/Java</string>
+		<key>MainClass</key>
+		<string>griffon.swing.SwingApplication</string>
+		<key>JVMVersion</key>
+		<string>1.6+</string>
+		<key>ClassPath</key>
+			<array>
+			<string>$JAVAROOT/SampleMapBuilder.jar</string>
+			<string>$JAVAROOT/glazedlists_java15-1.9.0.jar</string>
+			<string>$JAVAROOT/griffon-glazedlists-runtime-2.0.0.jar</string>
+			<string>$JAVAROOT/griffon-lookandfeel-pgslaf-runtime-1.0.0.jar</string>
+			<string>$JAVAROOT/griffon-lookandfeel-runtime-1.0.0.jar</string>
+			<string>$JAVAROOT/griffon-miglayout-runtime-1.0.0.jar</string>
+			<string>$JAVAROOT/griffon-rt-1.3.0.jar</string>
+			<string>$JAVAROOT/griffon-silkicons-runtime-1.0.0.jar</string>
+			<string>$JAVAROOT/griffon-swing-runtime-1.3.0.jar</string>
+			<string>$JAVAROOT/griffon-tasks-runtime-0.1.jar</string>
+			<string>$JAVAROOT/groovy-all-2.1.3.jar</string>
+			<string>$JAVAROOT/jcl-over-slf4j-1.7.3.jar</string>
+			<string>$JAVAROOT/jul-to-slf4j-1.7.3.jar</string>
+			<string>$JAVAROOT/log4j-1.2.17.jar</string>
+			<string>$JAVAROOT/miglayout-core-4.2.jar</string>
+			<string>$JAVAROOT/miglayout-swing-4.2.jar</string>
+			<string>$JAVAROOT/PgsLookAndFeel-1.1.1.jar</string>
+			<string>$JAVAROOT/PgsLookAndFeel-jide-1.1.1.jar</string>
+			<string>$JAVAROOT/silk-1.3.jar</string>
+			<string>$JAVAROOT/slf4j-api-1.7.3.jar</string>
+			<string>$JAVAROOT/slf4j-log4j12-1.7.3.jar</string>
+			<string>$JAVAROOT/swing-worker-1.1.jar</string>
+			<string>$JAVAROOT/swingx-action-1.6.4.jar</string>
+			<string>$JAVAROOT/swingx-autocomplete-1.6.4.jar</string>
+			<string>$JAVAROOT/swingx-beaninfo-1.6.4.jar</string>
+			<string>$JAVAROOT/swingx-common-1.6.4.jar</string>
+			<string>$JAVAROOT/swingx-core-1.6.4.jar</string>
+			<string>$JAVAROOT/swingx-graphics-1.6.4.jar</string>
+			<string>$JAVAROOT/swingx-painters-1.6.4.jar</string>
+			<string>$JAVAROOT/swingx-plaf-1.6.4.jar</string>
+			<string>$JAVAROOT/swingxbuilder-0.3.jar</string>
+			<string>$JAVAROOT/timingframework-1.0.jar</string>
+			</array>
+	</dict>
+</dict>
+</plist>

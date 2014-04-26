@@ -1,0 +1,67 @@
+<!-- BEGIN: main -->
+<MultiSamplePart>
+    <Name Value="{name}" />
+    <Selection Value="true" />
+    <IsActive Value="true" />
+    <Solo Value="false" />
+    <KeyRange>
+        <Min Value="{keymin}" />
+        <Max Value="{keymax}" />
+        <CrossfadeMin Value="{keymin}" />
+        <CrossfadeMax Value="{keymax}" />
+    </KeyRange>
+    <VelocityRange>
+        <Min Value="1" />
+        <Max Value="127" />
+        <CrossfadeMin Value="1" />
+        <CrossfadeMax Value="127" />
+    </VelocityRange>
+    <SelectorRange>
+        <Min Value="0" />
+        <Max Value="127" />
+        <CrossfadeMin Value="0" />
+        <CrossfadeMax Value="127" />
+    </SelectorRange>
+    <RootKey Value="{rootkey}" />
+    <Detune Value="0" />
+    <TuneScale Value="100" />
+    <Panorama Value="0" />
+    <Volume Value="1" />
+    <Link Value="false" />
+    <SampleStart Value="0" />
+    <SampleEnd Value="{duration}" />
+    <SustainLoop>
+        <Start Value="0" />
+        <End Value="{duration}" />
+        <Mode Value="0" />
+        <Crossfade Value="0" />
+        <Detune Value="0" />
+    </SustainLoop>
+    <ReleaseLoop>
+        <Start Value="0" />
+        <End Value="{duration}" />
+        <Mode Value="3" />
+        <Crossfade Value="0" />
+        <Detune Value="0" />
+    </ReleaseLoop>
+    <SampleRef>
+        <FileRef>
+            <HasRelativePath Value="true" />
+            <RelativePathType Value="1" />
+            <RelativePath>
+{relativePaths}
+            </RelativePath>
+            <Name Value="{filename}" />
+            <Type Value="1" />
+            {fileRefData}
+            <RefersToFolder Value="false" />
+            <ImmutableUid Value="" />
+        </FileRef>
+        <LastModDate Value="1142108969" />
+        <SourceContext />
+        <SampleUsageHint Value="0" />
+        <DefaultDuration Value="{duration}" />
+        <DefaultSampleRate Value="44100" />
+    </SampleRef>
+</MultiSamplePart>
+<!-- END: main -->

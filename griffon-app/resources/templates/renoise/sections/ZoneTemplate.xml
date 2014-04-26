@@ -1,0 +1,12 @@
+<!-- BEGIN: main -->
+<NoteOnMapping>
+    <SampleIndex>{index}</SampleIndex>
+    <UseEnvelopes>true</UseEnvelopes>
+    <MapVelocityToVolume>true</MapVelocityToVolume>
+    <BaseNote>{rootkey}</BaseNote>
+    <NoteStart>{keymin}</NoteStart>
+    <NoteEnd>{keymax}</NoteEnd>
+    <VelocityStart>0</VelocityStart>
+    <VelocityEnd>127</VelocityEnd>
+</NoteOnMapping>
+<!-- END: main -->

@@ -1,0 +1,9 @@
+        <!-- BEGIN: main -->
+					<SampleZone index="{keymin}" loNote="{keymin}" hiNote="{keymax}" loVel="{lovel}" hiVel="{hivel}" sample.start="0" sample.end="{duration}"
+					            sample.loopStart="0" sample.loopEnd="0" sample.loopCount="0" sample.sampleRate="{samplerate}"
+					            sample.originalPitch="{rootkey}" sample.pitchCorrection="0" loopMode="0" clip="{2D6FFAA3-62D1-4794-82B2-88636092FF54}">
+						<List x:id="path">
+							<Url type="1" url="{file}"/>
+						</List>
+					</SampleZone>
+		<!-- END: main -->

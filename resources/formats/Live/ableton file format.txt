@@ -1,0 +1,6 @@
+<RelativePathType Value="5" />
+1 :
+2 : Library
+3 : Project
+4 : Blank ?
+5 : Live Pack

@@ -1,0 +1,117 @@
+4 Null Bytes
+
+2 Bytes Data length (including previous 4 bytes)
+
+4 Bytes : 00 02 00 00
+
+1 Byte length V , Maximum value of 27.
+V bytes : Volume Name (e.g. Macintosh)
+27 - V bytes of null padding
+Same in all files : ca a4 c7 7d 48 2b 00 00 00
+
+3 Bytes of something, always different
+
+1 Byte length of audiofile name
+
+audiofile name (e.g. test.wav)
+
+all Null to byte 0x73
+
+7 Bytes, all different : e.g. 
+	05 BB 93 C0 AC 3F AB
+	04 FF D9 C0 38 E3 A1
+	05 bb 94 bf c1 2c d1
+	05 1c 39 c0 ac 3f ab
+	
+8 null bytes
+
+4 bytes of FF
+
+Same in all files : 00 00 09 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+1 Byte length of parent directory name
+
+parent directory name
+
+Same in all files :	00 00 10 00 08 00 00 ca a4 b9 6d 00 00 00 11 00 08 00 00
+
+4 bytes of stuff. 
+4 bytes (00 00 00 01). 
+	
+2 bytes length : X
+X bytes
+	
+00 02
+	
+2 bytes length Y , string of old style path
+Y Bytes e.g Macintosh:Users:.User:.Documents:.test.wav
+
+6 bytes : 00 00 0E 00 0C 00
+2 bytes length Z
+Z bytes of UTF-16 sample name, e.g. ...B.i.p.o.l.a.r. .G.l.i.t.c.h.1...w.a.v
+
+Same in all files : 00 0f 00 14 00 09 00 4d 00 61 00 63 00 69 00 6e 00 74 00 6f 00 73 00 68 00 12 00
+
+1 byte length A
+A bytes : Absolute path to sample file : Users/User/Documents/audio/Konkrete/Bi-Polar Kit/Bi-Polar Kit Samples/Bipolar Glitch1.wav
+
+Same in all files : 00 00 13 00 01 2F 00 00 15 00 02 00 0B FF FF 00 00
+
+-------------------------------
+
+struct String
+{
+  uint8 Length;
+  char Str[Length];
+};
+
+struct VolumeString
+{
+	uint8 Length;
+	char Str[Length];
+	uint8 nulls[27-Length];
+};
+
+struct SampleFilename
+{
+	uint8 Length;
+	char Str[Length];
+	uint8 padding[64-Length];
+};
+	
+struct StringX
+{
+  uint16 Length;
+  char Str[Length];
+};
+
+struct utf16String
+{
+  uint8 Length;
+  uint8 null;
+  uint16 chars[Length];
+};
+  
+struct Main
+{
+  uint32 Null;
+  uint16 Size;
+  uint32 AlmostNull;
+  VolumeString volume;
+  uint8 DiffA[12];
+  SampleFilename sampleFile;
+  uint8 MoreStuff[38];
+  String parentDirectory;
+  uint8 Stuff3[27];
+  StringX a;
+  uint16 zeroTwo;
+  StringX b;
+  uint32 oooooeoo;
+  uint16 ocoo;
+  utf16String utf16Sample;
+  uint8 Stuff4[26];
+  String absolutePath;
+  uint8 Stuff5[17];
+};
+	
+	
