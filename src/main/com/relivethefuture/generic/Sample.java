@@ -32,7 +32,7 @@ public interface Sample {
     Float getPan();
     Float getVolume();
 
-    Integer getDuration() throws UnsupportedAudioFileException, IOException;
+    Integer getDuration() throws UnsupportedAudioFileException, IOException, Exception;
     void setDuration(Integer duration);
 
     Long getCrc() throws IOException;

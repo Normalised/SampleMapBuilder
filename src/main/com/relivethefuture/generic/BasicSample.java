@@ -76,7 +76,7 @@ public class BasicSample implements Sample, Comparable<Sample> {
         duration = d;
     }
 
-    public Integer getDuration() throws UnsupportedAudioFileException, IOException {
+    public Integer getDuration() throws UnsupportedAudioFileException, IOException, Exception {
         if(duration == null) {
             try {
                 AudioFileFormat aff = AudioSystem.getAudioFileFormat(file);
@@ -84,6 +84,7 @@ public class BasicSample implements Sample, Comparable<Sample> {
                 logger.debug("Got duration " + duration);
             } catch (Exception e) {
                 logger.warn("Error getting duration for " + file.getAbsolutePath());
+                throw new Exception("Error reading file duration " + file.getAbsolutePath());
             }
         }
         return duration;

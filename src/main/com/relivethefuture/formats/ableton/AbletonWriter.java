@@ -146,7 +146,7 @@ public class AbletonWriter extends BasicInstrumentWriter {
             } catch(IOException e2) {
                 logger.warn("IO Exception : " + e2.getMessage());
             } catch(Exception e3) {
-                logger.warn("E3 : " + e3.getMessage());
+                logger.warn("Unknown Exception : " + e3.getMessage());
             }
         }
         wrapperTemplate.assign("name",instrument.getName());

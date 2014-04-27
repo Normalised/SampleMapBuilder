@@ -74,9 +74,11 @@ public class ShortcircuitWriter extends BasicInstrumentWriter {
                 zoneTemplate.reset();
                 sampleIndex++;
             } catch (UnsupportedAudioFileException e) {
-                continue;
+                logger.warn("Unsupported audio file");
             } catch (IOException e2) {
-                continue;
+                logger.warn("IO Exception " + e2.getMessage());
+            } catch(Exception e) {
+                logger.warn("Exception " + e.getMessage());
             }
         }
         logger.debug("Filling main template");

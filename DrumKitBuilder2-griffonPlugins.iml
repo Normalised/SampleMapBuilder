@@ -11,7 +11,7 @@
     <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/swing-1.4.0" />
     <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/swingx-builder-0.7" />
     <content url="file://$USER_HOME$/.griffon/1.5.0/projects/DrumKitBuilder2/plugins/tasks-0.1" />
-    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="griffon-1.5.0" level="application" />
     <orderEntry type="module-library" exported="">
