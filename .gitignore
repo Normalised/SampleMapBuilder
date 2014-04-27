@@ -2,3 +2,7 @@
 resources/packaging/SMB.app/
 resources/packaging/lib/
 staging/
+dist/
+packaged/SampleMapBuilder-OSX.zip
+packaged/SampleMapBuilder-Windows.zip
+packaged/Sample Map Builder.app/Contents/Resources/Java/
