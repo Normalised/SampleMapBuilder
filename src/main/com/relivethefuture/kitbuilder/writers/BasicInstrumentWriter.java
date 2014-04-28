@@ -1,6 +1,5 @@
 package com.relivethefuture.kitbuilder.writers;
 
-import com.relivethefuture.kitbuilder.SimpleProgressListener;
 import net.sf.jtpl.Template;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,30 +17,10 @@ public abstract class BasicInstrumentWriter implements InstrumentWriter {
 
     private final Logger logger = LoggerFactory.getLogger(BasicInstrumentWriter.class);
 
-    private ArrayList<SimpleProgressListener> listeners;
     protected ClassLoader classLoader;
 
     public BasicInstrumentWriter() {
         classLoader = Thread.currentThread().getContextClassLoader();
-    }
-
-    public void addProgressListener(SimpleProgressListener listener) {
-        if(listeners == null) {
-            listeners = new ArrayList<SimpleProgressListener>();
-        }
-        listeners.add(listener);
-    }
-
-    public void removeProgressListener(SimpleProgressListener listener) {
-        if(listeners != null) {
-            listeners.remove(listener);
-        }
-    }
-    
-    protected void reportProgress(Float percent) {
-        for (SimpleProgressListener listener : listeners) {
-            listener.reportProgress(percent);
-        }
     }
 
     protected String[] getFilenameAndExtension(File f) {

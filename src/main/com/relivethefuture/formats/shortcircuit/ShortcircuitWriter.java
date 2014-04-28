@@ -5,7 +5,6 @@ import com.relivethefuture.generic.Instrument;
 import com.relivethefuture.generic.Sample;
 import com.relivethefuture.generic.Zone;
 import com.relivethefuture.kitbuilder.writers.BasicInstrumentWriter;
-import javaFlacEncoder.FLAC_FileEncoder;
 import net.sf.jtpl.Template;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
