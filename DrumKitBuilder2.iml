@@ -11,7 +11,6 @@
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/griffon-app/services" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -23,8 +22,8 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.ideaLibSources/glazedlists_java15-1.9.0-sources.jar!/" />
-          <root url="file://$MODULE_DIR$/../../../java/glazedlists_java15-1.9.0-dist/source" />
-          <root url="file://$MODULE_DIR$/../../../java/glazedlists_java15-1.9.0-dist/source" />
+          <root url="file://$USER_HOME$/java/glazedlists_java15-1.9.0-dist/source" />
+          <root url="file://$USER_HOME$/java/glazedlists_java15-1.9.0-dist/source" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
@@ -33,4 +32,3 @@
     <orderEntry type="module" module-name="DrumKitBuilder2-griffonPlugins" />
   </component>
 </module>
-
